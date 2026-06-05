@@ -1,15 +1,226 @@
 <!DOCTYPE html>
-<html>
 
+<html lang="en">
 <head>
-<title>Padhoab</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>PadhoAB - Learn • Practice • Succeed</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:28px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:15px;
+}
+
+.hero{
+text-align:center;
+padding:80px 20px;
+background:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:25px;
+color:#555;
+}
+
+.btn{
+display:inline-block;
+padding:12px 25px;
+margin:10px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+.btn:hover{
+opacity:0.9;
+}
+
+.section{
+padding:60px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:32px;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+}
+
+.card h3{
+margin-bottom:10px;
+}
+
+.resources{
+background:white;
+padding:50px 8%;
+}
+
+.resource-item{
+padding:15px;
+margin-bottom:15px;
+background:#f8fafc;
+border-radius:8px;
+}
+
+.telegram{
+text-align:center;
+padding:60px 20px;
+background:#0f172a;
+color:white;
+}
+
+.telegram a{
+display:inline-block;
+margin-top:15px;
+padding:12px 25px;
+background:#2563eb;
+color:white;
+text-decoration:none;
+border-radius:8px;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+}
+</style>
+
 </head>
 
 <body>
 
-<h1>Padhoab Mini App Working</h1>
+<header>
+<div class="logo">PADHOAB</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">UPSC & PCS</a>
+<a href="#">Judiciary</a>
+<a href="#">Current Affairs</a>
+<a href="#">One Day Exams</a>
+<a href="#">Quiz</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>Learn • Practice • Succeed</h1>
+
+<p>
+One Platform for Competitive Exam Preparation
+</p>
+
+<p>
+UPSC & State PCS • Judiciary • Current Affairs • One Day Exams
+</p>
+
+<a href="#" class="btn">Explore Resources</a> <a href="#" class="btn">Attempt Quiz</a>
+
+</section>
+
+<section class="section">
+<h2 class="section-title">Our Focus Areas</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>🏛️ UPSC & State PCS</h3>
+<p>Resources, PYQs, current affairs and exam-oriented preparation.</p>
+</div>
+
+<div class="card">
+<h3>⚖️ Judiciary</h3>
+<p>Judiciary, APO and legal examination resources.</p>
+</div>
+
+<div class="card">
+<h3>📰 Current Affairs</h3>
+<p>Daily updates, monthly magazines and current affairs MCQs.</p>
+</div>
+
+<div class="card">
+<h3>🎯 One Day Exams</h3>
+<p>SSC, Railway, Banking and other competitive examinations.</p>
+</div>
+
+</div>
+</section>
+
+<section class="resources">
+<h2 class="section-title">Latest Resources</h2>
+
+<div class="resource-item">📘 Monthly Current Affairs Magazine</div>
+
+<div class="resource-item">📝 Latest Quiz</div>
+
+<div class="resource-item">📚 UPSC & Judiciary Resources</div>
+
+</section>
+
+<section class="telegram">
+<h2>Join Our Community</h2>
+
+<p>
+Get daily current affairs, quizzes, exam updates and study resources.
+</p>
+
+<a href="#">Join Telegram</a>
+
+</section>
+
+<footer>
+© 2026 PadhoAB | Learn • Practice • Succeed
+</footer>
 
 </body>
-
 </html>
