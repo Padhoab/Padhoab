@@ -1,55 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
 
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Judiciary | PadhoAB</title>
+
 <link rel="icon" type="image/png" href="favicon.png">
+
+<meta name="description" content="Judiciary preparation resources including current affairs, PYQs, bare acts, landmark judgments, case summaries, books, resources and exam strategy.">
+
+<link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Laila', serif;
+}
+
+body{
+background:#f5f7fa;
+color:#333;
+line-height:1.6;
+}
+
+header{
+background:#0f172a;
+color:white;
+padding:15px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo img{
+height:70px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+font-size:15px;
+}
+
+nav a:hover{
+color:#60a5fa;
+}
+
+.hero{
+background:white;
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:15px;
+color:#0f172a;
+}
+
+.hero p{
+font-size:20px;
+max-width:900px;
+margin:auto;
+color:#555;
+}
+
+.section{
+padding:60px 8%;
+}
+
+.section-title{
+font-size:34px;
+text-align:center;
+margin-bottom:40px;
+color:#0f172a;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:25px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+transition:0.3s;
+text-decoration:none;
+color:inherit;
+display:block;
+}
+
+.card:hover{
+transform:translateY(-5px);
+}
+
+.card h3{
+color:#2563eb;
+margin-bottom:10px;
+}
+
+.featured{
+background:white;
+padding:35px;
+border-radius:12px;
+box-shadow:0 3px 10px rgba(0,0,0,0.08);
+}
+
+.feature-item{
+padding:15px;
+margin-bottom:15px;
+background:#f8fafc;
+border-radius:8px;
+}
+
+footer{
+background:#111827;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+@media(max-width:768px){
+
+header{
+flex-direction:column;
+}
+
+nav{
+margin-top:15px;
+}
+
+nav a{
+display:block;
+margin:8px 0;
+text-align:center;
+}
+
+.hero h1{
+font-size:36px;
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
 
-<h2>PadhoAB</h2>
+<div class="logo">
+<img src="logo.jpg" alt="PadhoAB Logo">
+</div>
 
 <nav>
-<a href="index.html">Home</a> |
-<a href="upsc.html">UPSC & PCS</a> |
-<a href="judiciary.html">Judiciary</a> |
-<a href="current-affairs.html">Current Affairs</a> |
-<a href="one-day-exams.html">One Day Exams</a> |
+<a href="index.html">Home</a>
+<a href="upsc.html">UPSC & PCS</a>
+<a href="judiciary.html">Judiciary</a>
+<a href="current-affairs.html">Current Affairs</a>
+<a href="one-day-exams.html">One Day Exams</a>
 <a href="quiz.html">Quiz</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 </nav>
 
-<hr>
-
 </header>
-  
-<h1>⚖️ Judiciary</h1>
 
-<p>Judiciary, APO and legal examination resources.</p>
+<section class="hero">
 
-<h2>Coming Soon</h2>
-
-<ul>
-<li>Judiciary Preparation</li>
-<li>APO Preparation</li>
-<li>Bare Acts</li>
-<li>Important Judgments</li>
-<li>MCQs & Previous Year Questions</li>
-</ul>
+<h1>Judiciary</h1>
 
 <p>
-<a href="index.html">← Back to Home</a>
+Resources for Judicial Services, APO, Law Officer and other legal examinations including Current Affairs, PYQs, Bare Acts, Landmark Judgments, Case Summaries and Exam Strategy.
 </p>
-<hr>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Judiciary Resources</h2>
+
+<div class="cards">
+
+<a href="judiciary-current-affairs.html" class="card">
+<h3>📰 Current Affairs</h3>
+<p>Important legal, constitutional and judicial developments.</p>
+</a>
+
+<a href="judiciary-pyqs.html" class="card">
+<h3>📜 PYQs</h3>
+<p>Previous Year Questions from Judiciary and APO examinations.</p>
+</a>
+
+<a href="bare-acts.html" class="card">
+<h3>📖 Bare Acts</h3>
+<p>Important Acts and provisions frequently asked in examinations.</p>
+</a>
+
+<a href="landmark-judgments.html" class="card">
+<h3>🏛 Landmark Judgments</h3>
+<p>Important Supreme Court and High Court judgments.</p>
+</a>
+
+<a href="case-summaries.html" class="card">
+<h3>📚 Case Summaries</h3>
+<p>Facts, issues, decisions and significance of important cases.</p>
+</a>
+
+<a href="judiciary-books.html" class="card">
+<h3>📚 Reference Books</h3>
+<p>Recommended books and study material for Judiciary aspirants.</p>
+</a>
+
+<a href="judiciary-resources.html" class="card">
+<h3>📂 Free Resources</h3>
+<p>Notes, PDFs, charts and revision resources.</p>
+</a>
+
+<a href="judiciary-strategy.html" class="card">
+<h3>🎯 Exam Strategy</h3>
+<p>Preparation plans, booklists and guidance for Judiciary exams.</p>
+</a>
+
+</div>
+
+</section>
+
+<section class="section">
+
+<h2 class="section-title">Featured Judiciary Resources</h2>
+
+<div class="featured">
+
+<div class="feature-item">
+📌 Landmark Judgments Collection
+</div>
+
+<div class="feature-item">
+📌 Bare Acts & Important Sections
+</div>
+
+<div class="feature-item">
+📌 Judiciary Current Affairs
+</div>
+
+<div class="feature-item">
+📌 Judiciary PYQs
+</div>
+
+</div>
+
+</section>
 
 <footer>
-<p>© 2026 PadhoAB • Study Now</p>
-</footer>
-  
-</body>
 
+<p>© 2026 PadhoAB • Study Now</p>
+
+<p>
+UPSC & State PCS • Judiciary • Current Affairs • One Day Exams
+</p>
+
+</footer>
+
+</body>
 </html>
