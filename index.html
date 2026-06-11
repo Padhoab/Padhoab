@@ -86,17 +86,85 @@ color:#555;
 }
 
 .btn{
-display:inline-block;
-padding:12px 25px;
+
+display:inline-flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+width:220px;
+
+height:80px;
+
 margin:10px;
+
 background:#2563eb;
+
 color:white;
+
 text-decoration:none;
-border-radius:8px;
+
+border-radius:10px;
+
+font-weight:600;
+
+text-align:center;
+
+transition:0.3s;
+
 }
 
 .btn:hover{
 opacity:0.9;
+}
+
+.btn{
+
+display:inline-flex;
+
+flex-direction:column;
+
+justify-content:center;
+
+align-items:center;
+
+width:220px;
+
+height:80px;
+
+margin:10px;
+
+background:#2563eb;
+
+color:white;
+
+text-decoration:none;
+
+border-radius:10px;
+
+font-weight:600;
+
+text-align:center;
+
+transition:0.3s;
+
+}
+
+.btn small{
+
+display:block;
+
+font-size:14px;
+
+font-weight:400;
+
+margin-top:5px;
+
+text-align:center;
+
 }
 
 .section{
@@ -177,6 +245,33 @@ color:white;
 text-align:center;
 padding:20px;
 }
+
+.footer-links{
+
+margin-bottom:20px;
+
+}
+
+.footer-links a{
+
+color:white;
+
+text-decoration:none;
+
+margin:0 15px;
+
+font-size:18px;
+
+font-weight:500;
+
+}
+
+.footer-links a:hover{
+
+color:#60a5fa;
+
+}
+
 </style>
 
 </head>
@@ -211,13 +306,13 @@ padding:20px;
 UPSC & State PCS • Judiciary • Current Affairs • One Day Exams
 </p>
 
-<a href="current-affairs.html" class="btn">Explore Resources</a>
+<a href="current-affairs.html" class="btn">
+📚 Explore Resources
+</a>
+
 <a href="https://padhoab.github.io/padhoab_quiz/" class="btn">
-
 📝 Test KaroAB
-<br>
 <small>Practice Now</small>
-
 </a>
   
 </section>
@@ -305,11 +400,22 @@ One Day Exams YouTube
 
 <footer>
 
-<p>© 2026 PadhoAB • Study Now</p>
+<div class="footer-links">
 
-<p>UPSC & State PCS • Judiciary • Current Affairs • One Day Exams</p>
+<a href="static-gk.html">Static GK</a>
+
+<a href="about.html">About</a>
+
+<a href="contact.html">Contact</a>
+
+</div>
+
+<p>
+© 2026 PadhoAB • Study Now
+</p>
+
+<p>
+UPSC & State PCS • Judiciary • Current Affairs • One Day Exams
+</p>
 
 </footer>
-
-</body>
-</html>
