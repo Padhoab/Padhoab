@@ -40,3 +40,9 @@ transition:.3s;
 .btn:hover{
 opacity:.9;
 }
+
+.container{
+max-width:900px;
+margin:auto;
+padding:30px;
+}
