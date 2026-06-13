@@ -84,7 +84,6 @@ opacity:.9;
 
 }
 
-
 /* Footer CSS */
 
 .site-footer{
@@ -95,15 +94,25 @@ color:white;
 
 text-align:center;
 
-padding:40px 20px;
+padding:50px 20px;
 
-margin-top:50px;
+margin-top:60px;
+
+border-top:2px solid #1e3a8a;
 
 }
 
 .footer-links{
 
-margin-bottom:20px;
+display:flex;
+
+justify-content:center;
+
+gap:50px;
+
+margin-bottom:30px;
+
+flex-wrap:wrap;
 
 }
 
@@ -113,9 +122,7 @@ color:white;
 
 text-decoration:none;
 
-margin:0 15px;
-
-font-size:18px;
+font-size:20px;
 
 font-weight:500;
 
@@ -127,13 +134,33 @@ color:#60a5fa;
 
 }
 
+.site-footer p{
+
+font-size:18px;
+
+line-height:1.8;
+
+margin:15px 0;
+
+}
+
 @media (max-width:768px){
+
+.footer-links{
+
+gap:20px;
+
+}
 
 .footer-links a{
 
-display:block;
+font-size:18px;
 
-margin:10px 0;
+}
+
+.site-footer p{
+
+font-size:16px;
 
 }
 
