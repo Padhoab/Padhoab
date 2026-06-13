@@ -22,43 +22,66 @@ content="Bare Acts PDF, Constitution of India PDF, Constitution Hindi PDF, BNS P
 
 body{
 
-<div id="header"></div>
-  
 max-width:900px;
+
 margin:auto;
+
 padding:30px;
+
 font-family:Georgia, serif;
+
 background:#f5f6f8;
+
 line-height:1.8;
+
 }
 
 h1{
+
 color:#0b1533;
+
 }
 
 h2{
+
 color:#1e3a8a;
+
 }
 
 .card{
+
 background:white;
+
 padding:25px;
+
 border-radius:15px;
+
 margin-bottom:25px;
+
 box-shadow:0 4px 12px rgba(0,0,0,.08);
+
 }
 
 .btn{
+
 display:inline-block;
+
 padding:12px 20px;
+
 background:#2563eb;
+
 color:white;
+
 text-decoration:none;
+
 border-radius:10px;
+
 }
 
 .btn:hover{
+
 opacity:.9;
+
 }
 
 </style>
@@ -66,6 +89,8 @@ opacity:.9;
 </head>
 
 <body>
+
+<div id="header"></div>
 
 <h1>Bare Acts PDF Download</h1>
 
@@ -133,13 +158,13 @@ target="_blank">
 
 <script>
 
-fetch('/header.html')
+fetch('header.html')
 .then(response => response.text())
 .then(data => {
 document.getElementById('header').innerHTML = data;
 });
 
-fetch('/footer.html')
+fetch('footer.html')
 .then(response => response.text())
 .then(data => {
 document.getElementById('footer').innerHTML = data;
