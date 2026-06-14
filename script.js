@@ -2,32 +2,32 @@ const headerContainer = document.getElementById("header");
 
 if (headerContainer) {
 
-    let headerPath =
-        window.location.pathname.includes("/articles/")
-        ? "../header.html"
-        : "header.html";
-
-    fetch(headerPath)
-        .then(response => response.text())
-        .then(data => {
-            headerContainer.innerHTML = data;
-        });
-
+  fetch("../header.html")
+    .then(response => {
+      if (!response.ok) {
+        return fetch("header.html");
+      }
+      return response;
+    })
+    .then(response => response.text())
+    .then(data => {
+      headerContainer.innerHTML = data;
+    });
 }
 
 const footerContainer = document.getElementById("footer");
 
 if (footerContainer) {
 
-    let footerPath =
-        window.location.pathname.includes("/articles/")
-        ? "../footer.html"
-        : "footer.html";
-
-    fetch(footerPath)
-        .then(response => response.text())
-        .then(data => {
-            footerContainer.innerHTML = data;
-        });
-
+  fetch("../footer.html")
+    .then(response => {
+      if (!response.ok) {
+        return fetch("footer.html");
+      }
+      return response;
+    })
+    .then(response => response.text())
+    .then(data => {
+      footerContainer.innerHTML = data;
+    });
 }
