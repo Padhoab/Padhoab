@@ -1,34 +1,40 @@
-const examDates = {
-    "bihar-apo": new Date("2026-08-15"),
-    "haryana-ada": new Date("2026-07-20"),
-    "rajasthan-apo": new Date("2026-09-01"),
-    "upsc-prelims": new Date("2027-05-30")
-};
-
 document.querySelectorAll(".exam-countdown").forEach(box => {
 
-    const exam = box.dataset.exam;
-    const examDate = examDates[exam];
+    const examId = box.dataset.exam;
 
-    if (!examDate) return;
+    const exam = examData[examId];
+
+    if (!exam) return;
 
     const today = new Date();
 
-    const diffTime = examDate - today;
+    const difference = exam.date - today;
 
-    const daysLeft = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
+    const daysLeft = Math.ceil(
+        difference / (1000 * 60 * 60 * 24)
+    );
 
-    let color = "green";
+    let color = "#2e7d32";
 
     if (daysLeft <= 90)
-        color = "orange";
+        color = "#ff9800";
 
     if (daysLeft <= 30)
-        color = "red";
+        color = "#d32f2f";
 
-    box.innerHTML =
-        `⏳ ${daysLeft} days left`;
+    box.innerHTML = `
+        <div class="count-title">
+            ⏳ ${exam.name}
+        </div>
 
-    box.style.color = color;
+        <div class="count-days"
+             style="color:${color}">
+             ${daysLeft} Days Remaining
+        </div>
+
+        <div class="count-message">
+            Stay focused. Every revision matters.
+        </div>
+    `;
 
 });
