@@ -120,3 +120,14 @@ transform:translateY(-8px);
 margin-bottom:15px;
 color:#0B1533;
 }
+
+.trending{
+padding:70px 8%;
+background:white;
+}
+
+.trending h2{
+text-align:center;
+margin-bottom:40px;
+color:#0B1533;
+}
