@@ -100,15 +100,23 @@ color:#0B1533;
 
 .cards{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
-gap:25px;
+grid-template-columns:repeat(2,1fr);
+gap:35px;
+max-width:1200px;
+margin:auto;
 }
 
 .card{
 background:white;
-padding:30px;
-border-radius:20px;
+padding:40px;
+border-radius:25px;
 box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+min-height:220px;
+
+display:flex;
+flex-direction:column;
+
 transition:0.3s;
 }
 
@@ -140,4 +148,12 @@ background:white;
 text-align:center;
 margin-bottom:40px;
 color:#0B1533;
+}
+
+@media(max-width:768px){
+
+.cards{
+grid-template-columns:1fr;
+}
+
 }
