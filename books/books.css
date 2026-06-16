@@ -168,3 +168,33 @@ grid-template-columns:1fr;
 }
 
 }
+
+.amazon-btn{
+
+display:inline-block;
+
+margin-top:20px;
+
+padding:15px 30px;
+
+background:#FF9900;
+
+color:white;
+
+text-decoration:none;
+
+font-weight:600;
+
+border-radius:12px;
+
+transition:0.3s;
+
+}
+
+.amazon-btn:hover{
+
+background:#E68A00;
+
+transform:translateY(-3px);
+
+}
