@@ -1,3 +1,4 @@
+import { auth } from "./firebase.js";
 const headerContainer = document.getElementById("header");
 
 if (headerContainer) {
