@@ -1,4 +1,4 @@
-import { auth } from "./firebase.js";
+import { auth,db } from "./firebase.js";
 
 import {
 createUserWithEmailAndPassword,
@@ -9,6 +9,12 @@ onAuthStateChanged
 from "https://www.gstatic.com/firebasejs/12.0.0/firebase-auth.js";
 
 const headerContainer = document.getElementById("header");
+
+import {
+doc,
+setDoc
+}
+from "https://www.gstatic.com/firebasejs/12.0.0/firebase-firestore.js";
 
 if (headerContainer) {
 
