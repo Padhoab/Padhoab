@@ -108,3 +108,36 @@ border:1px solid #ddd;
 tr:nth-child(even){
 background:#f8fafc;
 }
+
+.news-card{
+background:white;
+padding:35px;
+margin-bottom:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.news-card h2{
+color:#1e3a8a;
+}
+
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+}
+
+th{
+background:#1e3a8a;
+color:white;
+padding:12px;
+}
+
+td{
+padding:12px;
+border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+background:#f8fafc;
+}
