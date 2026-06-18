@@ -1,1 +1,63 @@
+body{
+background:#f5f7fb;
+font-family:Laila,serif;
+line-height:1.8;
+}
 
+main{
+max-width:1000px;
+margin:auto;
+padding:20px;
+}
+
+.hero{
+background:white;
+padding:40px;
+border-radius:20px;
+margin-bottom:25px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.hero h1{
+color:#1e3a8a;
+}
+
+.toc{
+background:white;
+padding:30px;
+border-radius:20px;
+margin-bottom:25px;
+}
+
+.news-card{
+background:white;
+padding:35px;
+margin-bottom:30px;
+border-radius:20px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.news-card h2{
+color:#1e3a8a;
+}
+
+.important-facts{
+background:#fff8dc;
+padding:30px;
+border-radius:20px;
+margin-bottom:30px;
+}
+
+.revision{
+background:white;
+padding:30px;
+border-radius:20px;
+margin-bottom:30px;
+}
+
+.quiz-section{
+background:#dbeafe;
+padding:30px;
+border-radius:20px;
+text-align:center;
+}
