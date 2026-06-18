@@ -139,3 +139,18 @@ overflow-x:auto;
 }
 
 }
+
+.breadcrumb{
+font-size:15px;
+margin-bottom:20px;
+color:#666;
+}
+
+.breadcrumb a{
+text-decoration:none;
+color:#2563eb;
+}
+
+.breadcrumb a:hover{
+text-decoration:underline;
+}
