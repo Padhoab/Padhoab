@@ -87,3 +87,24 @@ Union Minister Manohar Lal and Minister of State Jitin Prasada inaugurated Bhara
 </ul>
 
 </section>
+table{
+width:100%;
+border-collapse:collapse;
+margin-top:20px;
+margin-bottom:20px;
+}
+
+th{
+background:#1e3a8a;
+color:white;
+padding:12px;
+}
+
+td{
+padding:12px;
+border:1px solid #ddd;
+}
+
+tr:nth-child(even){
+background:#f8fafc;
+}
