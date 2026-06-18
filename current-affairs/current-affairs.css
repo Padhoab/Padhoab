@@ -1,7 +1,10 @@
 body{
 background:#f5f7fb;
-font-family:Laila,serif;
+font-family:'Laila',serif;
 line-height:1.8;
+margin:0;
+padding:0;
+color:#333;
 }
 
 main{
@@ -14,19 +17,44 @@ padding:20px;
 background:white;
 padding:40px;
 border-radius:20px;
-margin-bottom:25px;
+margin-bottom:30px;
 box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
 
 .hero h1{
+font-size:42px;
 color:#1e3a8a;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:18px;
+color:#555;
 }
 
 .toc{
 background:white;
 padding:30px;
 border-radius:20px;
-margin-bottom:25px;
+margin-bottom:30px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.toc h2{
+color:#1e3a8a;
+}
+
+.toc ul{
+padding-left:20px;
+}
+
+.toc li{
+margin-bottom:10px;
+}
+
+.toc a{
+text-decoration:none;
+color:#2563eb;
 }
 
 .news-card{
@@ -39,54 +67,15 @@ box-shadow:0 5px 20px rgba(0,0,0,.08);
 
 .news-card h2{
 color:#1e3a8a;
+border-left:6px solid #2563eb;
+padding-left:15px;
 }
 
-.important-facts{
-background:#fff8dc;
-padding:30px;
-border-radius:20px;
-margin-bottom:30px;
+.news-card h3{
+color:#374151;
+margin-top:25px;
 }
 
-.revision{
-background:white;
-padding:30px;
-border-radius:20px;
-margin-bottom:30px;
-}
-
-.quiz-section{
-background:#dbeafe;
-padding:30px;
-border-radius:20px;
-text-align:center;
-}
-
-<section class="news-card">
-
-<h2 id="buildcon">
-Bharat Buildcon 2026 inaugurated in New Delhi
-</h2>
-
-<h3>Why in News?</h3>
-
-<p>
-Union Minister Manohar Lal and Minister of State Jitin Prasada inaugurated Bharat Buildcon 2026 in New Delhi.
-</p>
-
-<h3>Significance</h3>
-
-<ul>
-
-<li>Promotes infrastructure development.</li>
-
-<li>Encourages modern construction technologies.</li>
-
-<li>Supports sustainable building practices.</li>
-
-</ul>
-
-</section>
 table{
 width:100%;
 border-collapse:collapse;
@@ -109,35 +98,44 @@ tr:nth-child(even){
 background:#f8fafc;
 }
 
-.news-card{
-background:white;
-padding:35px;
-margin-bottom:30px;
+.important-facts{
+background:#fff8dc;
+padding:30px;
 border-radius:20px;
+margin-bottom:30px;
 box-shadow:0 5px 20px rgba(0,0,0,.08);
 }
 
-.news-card h2{
-color:#1e3a8a;
+.revision{
+background:white;
+padding:30px;
+border-radius:20px;
+margin-bottom:30px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+.quiz-section{
+background:#dbeafe;
+padding:30px;
+border-radius:20px;
+text-align:center;
+margin-bottom:30px;
+box-shadow:0 5px 20px rgba(0,0,0,.08);
+}
+
+@media(max-width:768px){
+
+.hero h1{
+font-size:30px;
+}
+
+.news-card{
+padding:25px;
 }
 
 table{
-width:100%;
-border-collapse:collapse;
-margin-top:20px;
+display:block;
+overflow-x:auto;
 }
 
-th{
-background:#1e3a8a;
-color:white;
-padding:12px;
-}
-
-td{
-padding:12px;
-border:1px solid #ddd;
-}
-
-tr:nth-child(even){
-background:#f8fafc;
 }
