@@ -153,7 +153,27 @@ overflow-x:auto;
 .container{
 padding:15px;
 }
+  
+main.container ul{
+padding-left:25px;
+}
 
+main.container h1{
+font-size:40px;
+}
+
+main.container h2{
+font-size:28px;
+}
+
+main.container p{
+font-size:18px;
+}
+
+main.container li{
+margin-bottom:12px;
+}
+  
 }
 
 .table-container{
