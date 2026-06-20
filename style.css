@@ -159,3 +159,25 @@ padding:15px;
 .table-container{
 overflow-x:auto;
 }
+
+main.container h1{
+margin-bottom:20px;
+}
+
+main.container h2{
+margin-top:40px;
+margin-bottom:20px;
+}
+
+main.container p{
+margin-bottom:20px;
+}
+
+main.container ul{
+padding-left:30px;
+margin-bottom:25px;
+}
+
+main.container li{
+margin-bottom:10px;
+}
