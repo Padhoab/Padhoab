@@ -15,20 +15,18 @@ One Day Exams Current Affairs | PadhoAB
 content="Daily Current Affairs for SSC, Railway, Banking, State PCS and other One Day Exams.">
 
 <link rel="icon" type="image/png" href="../favicon.png">
-
-<link rel="stylesheet" href="../header.css">
-
-<link rel="stylesheet" href="../footer.css">
-
 <link rel="stylesheet" href="current-affairs.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+
+<link rel="stylesheet" href="../header.css">
+<link rel="stylesheet" href="../footer.css">
 </head>
 
 <body>
 
-<header id="header"></header>
+<div id="header"></div>
 
 <main>
 
@@ -64,25 +62,9 @@ Read More →
 
 </main>
 
-<footer id="footer"></footer>
+<div id="footer"></div>
 
-
-<script>
-
-fetch("../header.html")
-.then(response => response.text())
-.then(data => {
-document.getElementById("header").innerHTML = data;
-});
-
-fetch("../footer.html")
-.then(response => response.text())
-.then(data => {
-document.getElementById("footer").innerHTML = data;
-});
-
-</script>
-
+<script src="../script.js"></script>
 </body>
 
 </html>

@@ -56,21 +56,19 @@ content="PadhoAB">
 </script>
 
   
-<link rel="icon" type="image/png" href="../../favicon.png">
-
-<link rel="stylesheet" href="../../header.css">
-
-<link rel="stylesheet" href="../../footer.css">
-
-<link rel="stylesheet" href="../current-affairs.css">
+<link rel="icon" type="image/png" href="../../../../favicon.png">
+<link rel="stylesheet" href="../../../../current-affairs/current-affairs.css">
 
 <link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
+
+<link rel="stylesheet" href="../../../../header.css">
+<link rel="stylesheet" href="../../../../footer.css">
 </head>
 
 <body>
 
-<header id="header"></header>
+<div id="header"></div>
 
 <main>
 
@@ -799,7 +797,7 @@ Current Affairs 20 June 2026
 
 </a>
 
-<a href="../../one-day-exams.html" class="related-card">
+<a href="../../../one-day-exams.html" class="related-card">
 
 All One Day Exam Current Affairs
 
@@ -807,25 +805,9 @@ All One Day Exam Current Affairs
 
 </section>
 
-  
-<footer id="footer"></footer>
+<div id="footer"></div>
 
-<script>
-
-fetch("../../header.html")
-.then(response => response.text())
-.then(data => {
-document.getElementById("header").innerHTML = data;
-});
-
-fetch("../../footer.html")
-.then(response => response.text())
-.then(data => {
-document.getElementById("footer").innerHTML = data;
-});
-
-</script>
-
+<script src="../../../../script.js"></script>
 </body>
 
 </html>

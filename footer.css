@@ -1,4 +1,4 @@
-footer{
+#footer footer{
 background:#07112b;
 color:white;
 text-align:center;
@@ -8,11 +8,11 @@ margin-top:50px;
 clear:both;
 }
 
-.footer-links{
+#footer .footer-links{
 margin-bottom:20px;
 }
 
-.footer-links a{
+#footer .footer-links a{
 color:white;
 text-decoration:none;
 margin:0 15px;
@@ -20,11 +20,11 @@ font-size:18px;
 font-weight:500;
 }
 
-.footer-links a:hover{
+#footer .footer-links a:hover{
 color:#60a5fa;
 }
 
-footer p{
+#footer footer p{
 color:white;
 margin-top:10px;
 }

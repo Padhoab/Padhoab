@@ -1,4 +1,3 @@
-```javascript
 const searchData = [
 
 {
@@ -32,4 +31,3 @@ keywords:"daily monthly current affairs"
 }
 
 ];
-```
