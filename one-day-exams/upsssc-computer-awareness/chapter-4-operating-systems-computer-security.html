@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chapter-3-ms-office | UPSSSC Computer Awareness | PadhoAB</title>
+<meta name="description" content="Complete Chapter 4 notes for UPSSSC Computer Awareness covering Operating System">
+<meta name="keywords" content="UPSSSC Computer Awareness, Lower PCS Computer, Chapter 4, PadhoAB">
+<link rel="canonical" href="https://padhoab.in/one-day-exams/upsssc-computer-awareness/chapter-4-operating-systems-computer-security.html">
+<link rel="icon" href="../../favicon.png">
+<link rel="stylesheet" href="../../header.css">
+<link rel="stylesheet" href="../../footer.css">
+<link rel="stylesheet" href="../../assets/css/interactive.css">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"chapter-2-internet-networking-web-technologies","author":{"@type":"Organization","name":"PadhoAB"}}</script>
+    <style>
+        :root {
+            --primary-color: #07112b;
+--secondary-color: #2563eb;
+--accent-color: #f59e0b;
+--bg-color: #f5f7fa;
+            --card-bg: #ffffff;
+            --text-color: #2d3748;
+            --heading-color: #0f172a;
+            --border-color: #e2e8f0;
+            --table-header-bg: #2b6cb0;
+            --table-header-color: #ffffff;
+            --table-row-alt: #f8fafc;
+            --highlight-bg: #ebf8ff;
+            --highlight-border: #3182ce;
+        }
+
+        body {
+            font-family:'Laila',serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: var(--card-bg);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+            border-radius: 8px;
+        }
+
+        .header {
+            border-bottom: 3px solid var(--secondary-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header h1 {
+            color: var(--primary-color);
+            margin: 0 0 10px 0;
+            font-size: 2rem;
+        }
+
+        .header .subtitle {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            font-weight: 600;
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 12px;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            font-size: 1.4rem;
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            margin-top: 25px;
+            margin-bottom: 15px;
+            font-size: 1.15rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border: 1px solid var(--border-color);
+        }
+
+        th {
+            background-color: var(--table-header-bg);
+            color: var(--table-header-color);
+            font-weight: 600;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--table-row-alt);
+        }
+
+        tr:hover {
+            background-color: #edf2f7;
+        }
+
+        .callout {
+            background-color: var(--highlight-bg);
+            border-left: 4px solid var(--highlight-border);
+            padding: 15px 20px;
+            margin: 20px 0;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .diagram-box {
+            background-color: #f1f5f9;
+            border: 1px solid #cbd5e1;
+            padding: 20px;
+            border-radius: 6px;
+            font-family: monospace;
+            white-space: pre;
+            overflow-x: auto;
+            margin: 20px 0;
+            font-size: 0.9rem;
+            line-height: 1.4;
+        }
+
+        ul, ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .mcq-card {
+            background: #f8fafc;
+            border: 1px solid var(--border-color);
+            padding: 15px;
+            border-radius: 6px;
+            margin-bottom: 15px;
+        }
+
+        .mcq-title {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .badge {
+            display: inline-block;
+            background: #e2e8f0;
+            color: #475569;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-right: 5px;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+                margin: 0;
+                border-radius: 0;
+            }
+            table {
+                font-size: 0.85rem;
+            }
+            th, td {
+                padding: 8px 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="header"></div>
+
+<div class="container">
+    <div class="header">
+        <h1>UPSSSC Lower PCS Computer & IT Master Guide</h1>
+        <div class="subtitle">Chapter 4: Operating System </div>
+    </div>
+
+ <!-- Part 1: Operating Systems -->
+    <h2>1. Operating System Concepts</h2>
+    <ul>
+        <li><strong>OS Functions:</strong> Process Scheduling, Memory Allocation, File Management, Device Driver Management, Security & Authentication.</li>
+        <li><strong>Types of Operating Systems:</strong>
+            <ul>
+                <li><strong>Batch OS:</strong> Batches similar jobs sequentially (Early mainframes).</li>
+                <li><strong>Time-Sharing OS:</strong> Uses CPU time slicing for multi-tasking (Unix, Windows).</li>
+                <li><strong>Real-Time OS (RTOS):</strong> Guarantees output within rigid, deterministic time limits (Robotics, Flight controls).</li>
+                <li><strong>CUI vs GUI:</strong> CUI relies on typed commands (MS-DOS, Unix); GUI relies on mouse, icons, and windows (Windows, Android).</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Part 2: Printers & Mobile Devices -->
+    <h2>2. Printers, Tablets & Mobile Technology</h2>
+    <ul>
+        <li><strong>Spooling:</strong> Simultaneous Peripheral Operations On-Line — Temporarily queuing print jobs in RAM/Disk until printer is ready.</li>
+        <li><strong>Capacitive vs Resistive Touchscreens:</strong> Capacitive uses electrical human touch (Modern Smartphones); Resistive requires physical pressure (ATMs).</li>
+        <li><strong>Mobile SoC (System-on-a-Chip):</strong> Integrates CPU, GPU, Modem, and RAM onto a single chip (Snapdragon, Apple A-Series).</li>
+    </ul>
+
+    <!-- Part 3: Social Networking -->
+    <h2>3. Social Networking Platforms Cheat-Sheet</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Platform</th>
+                <th>Founder(s)</th>
+                <th>Year</th>
+                <th>Exam Facts</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><strong>Facebook</strong></td><td>Mark Zuckerberg</td><td>2004</td><td>World's largest platform; parent company renamed <strong>Meta</strong> in 2021.</td></tr>
+            <tr><td><strong>YouTube</strong></td><td>Steve Chen, Chad Hurley, Jawed Karim</td><td>2005</td><td>Video sharing platform acquired by Google in 2006.</td></tr>
+            <tr><td><strong>Twitter (X)</strong></td><td>Jack Dorsey, Biz Stone, Evan Williams</td><td>2006</td><td>Microblogging platform; 280-character limit; renamed <strong>X</strong>.</td></tr>
+            <tr><td><strong>WhatsApp</strong></td><td>Brian Acton, Jan Koum</td><td>2009</td><td>Messaging app acquired by Meta in 2014.</td></tr>
+            <tr><td><strong>LinkedIn</strong></td><td>Reid Hoffman</td><td>2002</td><td>Professional networking platform acquired by Microsoft in 2016.</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Part 4: E-Governance -->
+    <h2>4. E-Governance Models & Initiatives</h2>
+
+    <div class="callout">
+        <strong>E-Governance Interaction Models:</strong><br>
+        • <strong>G2C</strong> (Government to Citizen) | • <strong>G2B</strong> (Government to Business)<br>
+        • <strong>G2G</strong> (Government to Government) | • <strong>G2E</strong> (Government to Employee)
+    </div>
+
+    <h3>A. Key National Schemes</h3>
+    <ul>
+        <li><strong>UMANG App:</strong> Launched in 2017; single platform for 1200+ Central and State government services. Available in 13 languages.</li>
+        <li><strong>DigiLocker:</strong> Secure cloud storage (1 GB) for digital verification of official documents.</li>
+        <li><strong>Digital India:</strong> Flagship mission launched on <strong>July 1, 2015</strong>.</li>
+    </ul>
+
+    <h3>B. Uttar Pradesh State-Specific E-Governance Portals</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Portal / Scheme Name</th>
+                <th>Objective / Function</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><td><strong>UP Bhulekh</strong></td><td>Digital maintenance and verification of land ownership records (<strong>Khatauni</strong>).</td></tr>
+            <tr><td><strong>Nivesh Mitra</strong></td><td>Single Window Clearance system for industrial investments and business approvals in UP.</td></tr>
+            <tr><td><strong>Jansunwai / IGRS</strong></td><td>Integrated citizen grievance redressal portal (includes Anti Bhu-Mafia complaints).</td></tr>
+            <tr><td><strong>CM Helpline 1076</strong></td><td>Dedicated toll-free number (<strong>1076</strong>) for lodging state government complaints.</td></tr>
+            <tr><td><strong>e-District & e-Sathi App</strong></td><td>Delivers Income, Domicile, and Caste certificates directly to citizens digitally.</td></tr>
+            <tr><td><strong>Pariksha Portal</strong></td><td>Unified portal for state competitive exam applications (UPPSC, UPSSSC).</td></tr>
+            <tr><td><strong>AI Pragya</strong></td><td>UP state initiative to train 10 lakh citizens in Artificial Intelligence & Emerging Tech.</td></tr>
+        </tbody>
+    </table>
+
+    <!-- Part 5: Practice Questions -->
+    <h2>5. Practice Questions (UPSSSC Pattern)</h2>
+    <div class="mcq-card">
+        <div class="mcq-title">1. What is the toll-free number for the Chief Minister Helpline in Uttar Pradesh?</div>
+        <div>A) 1090 &nbsp;&nbsp; <strong>B) 1076</strong> &nbsp;&nbsp; C) 112 &nbsp;&nbsp; D) 1098</div>
+    </div>
+    <div class="mcq-card">
+        <div class="mcq-title">2. Which operating system processes tasks strictly under rigid time constraints?</div>
+        <div>A) Time-Sharing OS &nbsp;&nbsp; <strong>B) Real-Time OS (RTOS)</strong> &nbsp;&nbsp; C) Batch OS &nbsp;&nbsp; D) Multiprogramming OS</div>
+    </div>
+    <div class="mcq-card">
+        <div class="mcq-title">3. What is the primary function of UP's "Nivesh Mitra" portal?</div>
+        <div>A) Land Records &nbsp;&nbsp; <strong>B) Single Window Clearance for Businesses</strong> &nbsp;&nbsp; C) Scholarships &nbsp;&nbsp; D) Exam Results</div>
+    </div>
+
+</div>
+
+<div id="footer"></div>
+<script src="../../script.js"></script>
+<script src="../../assets/js/interactive.js"></script>
+
+</body>
+</html>
