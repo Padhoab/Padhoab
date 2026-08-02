@@ -162,15 +162,21 @@ margin-top:20px;
 
 .badge{
 
-background:rgba(255,255,255,.15);
-
-padding:10px 18px;
-
-border-radius:30px;
-
+background:rgba(255,255,255,.18);
+border:1px solid rgba(255,255,255,.25);
+padding:12px 20px;
+border-radius:50px;
 font-size:15px;
+font-weight:600;
+backdrop-filter:blur(10px);
+transition:.3s;
 
-backdrop-filter:blur(8px);
+}
+
+.badge:hover{
+
+transform:translateY(-3px);
+background:rgba(255,255,255,.28);
 
 }
 
