@@ -61,6 +61,9 @@
     =========================================== -->
 
     <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="../../header.css">
+<link rel="stylesheet" href="../../footer.css">
+<link href="https://fonts.googleapis.com/css2?family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
     <!-- ==========================================
          JSON-LD
@@ -94,15 +97,11 @@ box-sizing:border-box;
 }
 
 body{
-
-font-family:Arial,Helvetica,sans-serif;
-
-background:#f5f7fb;
-
-color:#222;
-
-line-height:1.7;
-
+background:#f5f7fa;
+color:#333;
+font-family:'Laila', serif;
+line-height:1.8;
+font-size:18px;
 }
 
 a{
@@ -125,8 +124,8 @@ margin:auto;
 
 .hero{
 
-background:linear-gradient(135deg,#0d6efd,#003b8e);
-
+background:linear-gradient(135deg,#07112b,#2563eb);
+    
 color:white;
 
 padding:70px 20px;
@@ -191,8 +190,8 @@ font-size:34px;
 
 margin-bottom:18px;
 
-color:#0d6efd;
-
+color:#07112b;
+    
 }
 
 .section-subtitle{
@@ -241,6 +240,8 @@ font-size:28px;
 
 <body>
 
+<div id="header"></div>
+    
 <!-- ==========================================
      HERO
 =========================================== -->
@@ -1332,128 +1333,5 @@ Start Chapter 1 →
      FOOTER
 =========================================== -->
 
-<footer style="background:#0f172a;color:#ffffff;padding:50px 20px;">
-
-<div class="container">
-
-<h2>
-
-PadhoAB
-
-</h2>
-
-<p style="margin:15px 0;max-width:700px;">
-
-PadhoAB provides structured, exam-oriented learning resources, chapter-wise notes and practice tests for competitive examinations.
-
-</p>
-
-<div style="display:flex;flex-wrap:wrap;gap:20px;margin:25px 0;">
-
-<a href="/">Home</a>
-
-<a href="/about.html">About</a>
-
-<a href="/contact.html">Contact</a>
-
-<a href="/one-day-exams/">One Day Exams</a>
-
-<a href="/current-affairs/">Current Affairs</a>
-
-<a href="https://test.padhoab.in">TestKaroAB</a>
-
-</div>
-
-<hr style="border:0;border-top:1px solid rgba(255,255,255,.2);margin:30px 0;">
-
-<p>
-
-© 2026 PadhoAB. All Rights Reserved.
-
-</p>
-
-</div>
-
-</footer>
-
-<!-- ==========================================
-     FAQ SCHEMA
-=========================================== -->
-
-<script type="application/ld+json">
-{
-"@context":"https://schema.org",
-"@type":"FAQPage",
-"mainEntity":[
-{
-"@type":"Question",
-"name":"Is Computer Awareness compulsory in UPSSSC examinations?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"Several UPSSSC examinations include Computer Awareness either as a dedicated section or as part of General Studies depending on the recruitment."
-}
-},
-{
-"@type":"Question",
-"name":"Which UPSSSC exams are covered?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"These notes are useful for Lower PCS, PET, Junior Assistant, Revenue Lekhpal, VDO, Stenographer and other UPSSSC examinations."
-}
-},
-{
-"@type":"Question",
-"name":"How should I prepare Computer Awareness?",
-"acceptedAnswer":{
-"@type":"Answer",
-"text":"Study every chapter in sequence, revise regularly and practice through TestKaroAB."
-}
-}
-]
-}
-</script>
-
-<style>
-
-.faq{
-
-background:white;
-
-padding:25px;
-
-margin-bottom:20px;
-
-border-left:5px solid #0d6efd;
-
-border-radius:8px;
-
-box-shadow:0 5px 15px rgba(0,0,0,.06);
-
-}
-
-.faq h3{
-
-margin-bottom:12px;
-
-color:#0d6efd;
-
-}
-
-footer a{
-
-color:white;
-
-}
-
-footer a:hover{
-
-text-decoration:underline;
-
-}
-
-</style>
-
-</body>
-
-</html>
-
+<div id="footer"></div>
+<script src="../../script.js"></script>
