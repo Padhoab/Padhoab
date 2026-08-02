@@ -1,1 +1,81 @@
-/* PadhoAB Interactive Components */
+.cpu-box{
+
+    background:#ffffff;
+
+    border-radius:12px;
+
+    padding:25px;
+
+    margin:30px 0;
+
+    box-shadow:0 4px 15px rgba(0,0,0,.08);
+
+}
+
+.cpu-box h2{
+
+    text-align:center;
+
+    color:#07112b;
+
+    margin-bottom:25px;
+
+}
+
+.cpu-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+
+    gap:20px;
+
+}
+
+.cpu-card{
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#2563eb;
+
+    color:white;
+
+    padding:25px;
+
+    font-size:18px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+
+    transition:.3s;
+
+}
+
+.cpu-card:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-5px);
+
+}
+
+.cpu-info{
+
+    margin-top:25px;
+
+    background:#eef4ff;
+
+    border-left:5px solid #2563eb;
+
+    padding:18px;
+
+    border-radius:8px;
+
+    font-size:17px;
+
+    line-height:1.7;
+
+}
