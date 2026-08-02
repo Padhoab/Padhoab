@@ -10,6 +10,7 @@
 <link rel="icon" href="../../favicon.png">
 <link rel="stylesheet" href="../../header.css">
 <link rel="stylesheet" href="../../footer.css">
+<link rel="stylesheet" href="../../assets/css/interactive.css">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"Article","headline":"Chapter 1: History, Computer Generations & Input/Output Devices","author":{"@type":"Organization","name":"PadhoAB"}}</script>
     <style>
         :root {
@@ -358,29 +359,7 @@
     <h2>3. Hardware Architecture & System Bus</h2>
     <p>Computers follow the <strong>IPO Model</strong> (Input &rarr; Process &rarr; Output) based on the <strong>Von Neumann Architecture</strong>.</p>
     
-    <div class="diagram-box">
-┌───────────────────────────────────────────────────────────┐
-│                    CENTRAL PROCESSING UNIT                │
-│                                                           │
-│   ┌──────────────────────┐     ┌──────────────────────┐   │
-│   │ Control Unit (CU)    │     │ Arithmetic Logic Unit│   │
-│   │ "Traffic Controller" │     │ (ALU)                │   │
-│   └──────────┬───────────┘     └──────────┬───────────┘   │
-│              │                            │               │
-│              └─────────────┬──────────────┘               │
-│                            ▼                              │
-│                    ┌──────────────┐                       │
-│                    │  Registers   │                       │
-│                    └──────────────┘                       │
-└────────────────────────────┬──────────────────────────────┘
-                             │
-                  ┌──────────┴──────────┐
-                  ▼                     ▼
-        ┌───────────────────┐ ┌───────────────────┐
-        │  Primary Memory   │ │  Input / Output   │
-        │   (RAM / ROM)     │ │     Devices       │
-        └───────────────────┘ └───────────────────┘
-    </div>
+    <div id="cpuArchitecture"></div>
 
     <h3>CPU Components</h3>
     <ul>
@@ -549,6 +528,7 @@
 
 <div id="footer"></div>
 <script src="../../script.js"></script>
+<script src="../../assets/js/interactive.js"></script>
 
 </body>
 </html>
